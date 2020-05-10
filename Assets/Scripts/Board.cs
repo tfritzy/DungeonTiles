@@ -52,7 +52,7 @@ public class Board : MonoBehaviour
     }
 
     /// <summary>
-    /// Loads the tile prefabs from 
+    /// Loads the tile prefabs from Resources/Prefabs/{TileName}
     /// </summary>
     private void LoadTilePrefabs()
     {
@@ -64,7 +64,7 @@ public class Board : MonoBehaviour
     }
 
     /// <summary>
-    /// Instantiates a tile gameobject
+    /// Instantiates a tile gameobject at the given grid position.
     /// </summary>
     /// <param name="tileType">The type of tile to instantiate</param>
     /// <param name="gridPosition">The position of the tile in the tileGrid</param>
